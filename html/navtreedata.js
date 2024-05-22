@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "ME507_HW6", "index.html", [
+    [ "My Personal Index Page", "index.html", "index" ],
     [ "Topics", "topics.html", "topics" ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

@@ -6,5 +6,6 @@ var searchData=
   ['motor_5fdriver_2ec_3',['motor_driver.c',['../motor__driver_8c.html',1,'']]],
   ['msi_4',['System Clock source                    | MSI',['../system__stm32l4xx_8c.html#autotoc_md1',1,'']]],
   ['msi_5fvalue_5',['MSI_VALUE',['../group___s_t_m32_l4xx___system___private___defines.html#ga90e2a73d7fe4a7425c6e31fef5ce7263',1,'system_stm32l4xx.c']]],
-  ['msirangetable_6',['MSIRangeTable',['../group___s_t_m32_l4xx___system___private___variables.html#ga4d9e663c3c5bd4ca3361bf97d48158bf',1,'system_stm32l4xx.c']]]
+  ['msirangetable_6',['MSIRangeTable',['../group___s_t_m32_l4xx___system___private___variables.html#ga4d9e663c3c5bd4ca3361bf97d48158bf',1,'system_stm32l4xx.c']]],
+  ['my_20personal_20index_20page_7',['My Personal Index Page',['../index.html',1,'']]]
 ];

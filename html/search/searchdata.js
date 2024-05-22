@@ -4,7 +4,8 @@ var indexSectionsWithContent =
   1: "ms",
   2: "_bdehimnprsu",
   3: "acdefhmps",
-  4: "cs"
+  4: "cs",
+  5: "imp"
 };
 
 var indexSectionNames =
@@ -13,7 +14,8 @@ var indexSectionNames =
   1: "files",
   2: "functions",
   3: "variables",
-  4: "groups"
+  4: "groups",
+  5: "pages"
 };
 
 var indexSectionLabels =
@@ -22,6 +24,7 @@ var indexSectionLabels =
   1: "Files",
   2: "Functions",
   3: "Variables",
-  4: "Modules"
+  4: "Modules",
+  5: "Pages"
 };
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ME507_HW6: Main Page</title>
+<title>ME507_HW6: My Personal Index Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -96,17 +96,25 @@ $(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">ME507_HW6 Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">My Personal Index Page </div></div>
 </div><!--header-->
 <div class="contents">
-<ul><li><a href="index.html"><span>Main&#160;Page</span></a>
-</li><li><a href="topics.html"><span>Topics</span></a>
-</li><li><a href="files.html"><span>Files</span></a>
-<ul><li><a href="files.html"><span>File&#160;List</span></a>
-</li><li><a href="globals.html"><span>Globals</span></a>
-</li></ul>
-</li></ul>
+<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
+Introduction</h1>
+<p>This code takes a user input through a serial terminal and is able to spin a set of motors, individually, by clarifying which motor to select, and changing the PWM signal to the motor. This is done by using a class to change a motor's compare value, therefore changing the duty cycle of the PWM signal</p>
+<h1><a class="anchor" id="install_sec"></a>
+Usage</h1>
+<h2><a class="anchor" id="Hardware"></a>
+Hardware</h2>
+<p>The board used was an STM32L476RG board with pins used according to .ioc file</p>
+<h2><a class="anchor" id="Files"></a>
+Files</h2>
+<p>Along with <a class="el" href="main_8c.html" title=": Main program body">main.c</a> and main.h, motor driver files (motordriver.c and motordriver.h) were used with a psuedo-class structure to house the code for setting timer channel compare values to change PWM duty output to motors.</p>
+<h2><a class="anchor" id="Additional"></a>
+Software</h2>
+<p>A serial terminal also needs to be used. I used Realterm I2C, but PuTTyis another option. ASCII needs to be used on the terminal and the input commands need to be structured as m!$$, with the ! being 1 or 2 to select the motor and the $$ being a hex value from 0x00 to 0xFF to specify a signed hex value from -128 to 127. This gives the maximum range of the motor speeds allowed in both directions of rotation. Any other input format will result in an error. </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->
 </div><!-- doc-content -->
